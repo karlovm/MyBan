@@ -1,0 +1,35 @@
+name: MyBan
+version: 1.2.1
+main: com.etysoft.ban.myban
+api-version: 1.8
+prefix: MyBan
+authors: [karlov_m]
+description: Ban and mute players on different time.
+commands:
+  myban:
+    description: MyBan main command
+    usage: /<command>
+    aliases: [mb, rban, runban, rmute, runmute]
+permissions:
+  myban.admin:
+    default: op
+    description: Allows all commands
+  myban.ban:
+    default: op
+    description: Ban a player
+  myban.mute:
+    default: op
+    description:  Mute a player
+  myban.unban:
+    default: op
+    description: Unban a player
+  myban.unmute:
+    default: op
+    description: Unmute a player
+  myban.mutebypass:
+    default: op
+    description:  Ignore ban
+  myban.banbypass:
+    default: op
+    description:  Ignore mute
+

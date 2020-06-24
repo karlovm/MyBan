@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MyBan">
+    <output-path>$USER_HOME$/Desktop/spigot18/plugins</output-path>
+    <root id="archive" name="MyBan.jar">
+      <element id="module-output" name="MyBan" />
+    </root>
+  </artifact>
+</component>
