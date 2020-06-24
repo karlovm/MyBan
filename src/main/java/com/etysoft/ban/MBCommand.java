@@ -147,7 +147,7 @@ public class MBCommand implements CommandExecutor {
                 }
                 if (strings[0].equals("reload")) {
                    myban.getInstance().reloadConfig();
-                   commandSender.sendMessage(Sets.cstring("&f[&6MyBan&7] &aConfig of &bMyBan " + myban.getInstance().getDescription().getVersion() + " &areloaded!"));
+                   commandSender.sendMessage(Sets.cstring("&f[&6MyBan&f] &aConfig of &bMyBan " + myban.getInstance().getDescription().getVersion() + " &areloaded!"));
                 }
             }
             else

@@ -1,25 +1,25 @@
 # Configuration file | MyBan v. 1.0 by karlov_m
 
 offline-players: true
-oof: "&cВзаимодейтвовать с оффлайн-игроками запрещено"
+oof: "&f[&6MyBan&f] &cYou can't mute or ban offline player"
 
-no-perm: "&cУ вас нет разрешения"
-whatban: "&cИпользуйте /rban <игрок> <минуты> <причина>"
-whatmute: "&cИпользуйте /rmute <игрок> <минуты> <причина>"
+no-perm: "&f[&6MyBan&f] &cYou do not have permission"
+whatban: "&f[&6MyBan&f] &cPlease use /rban <player> <time in minutes> <reason>"
+whatmute: "&f[&6MyBan&f] &cPlease use /rmute <player> <minutes> <reason>"
 
-cunban: "&cНевозможно разбанить(не забанен)"
-cunmute: "&cНевозможно размутить(не заглушен)"
+cunban: "&f[&6MyBan&f] &cCan't unban (the player is not banned)"
+cunmute: "&f[&6MyBan&f] &cCan't unmute (the player is not muted)"
 
-unmute: "&aИгрок &6%s размучен"
-unban: "&aИгрок &6%s разбанен"
+unmute: "&f[&6MyBan&f] &aPlayer &6%s unmuted"
+unban: "&f[&6MyBan&f] &aPlayer &6%s unbanned"
 
-ban: "&cВы забанены на %s минут по причине: &6%z"
-banh: "&6Вы забанили игрока %s на %k минут по причине:&f %z"
+ban: "&f[&6MyBan&f] &cYou have been banned for %s minutes: &6%z"
+banh: "&f[&6MyBan&f] &6You banned %s for %k minutes:&f %z"
 
-mute: "&cВы заглушены на %s минут по причине: &6%z"
-muteh: "&6Вы заглушили игрока %s на %k минут по причине:&f %z"
+mute: "&f[&6MyBan&f] &cYou have been muted for %s minutes: &6%z"
+muteh: "&f[&6MyBan&f] &6You muted %s for %k minutes:&f %z"
 
-time: "&cВам доступно максимум %t минут"
+time: "&f[&6MyBan&f] &cYou have only %t minutes maximum"
 
-nan: "&cНеверное число"
-args: "&cНеверные аргументы"
+nan: "&f[&6MyBan&f] &cWrong number"
+args: "&f[&6MyBan&f] &cWrong arguments"
