@@ -11,3 +11,5 @@ Players with different permission group can ban and mute other players for diffe
 #### /mb reload - reload config
 #### /mb save - save current data of muted and banned players (automaticly on disabling)
 #### myban.admin - access to all commands (max time must be setted)
+## Join our Discord server
+  https://discord.gg/Etd4XXH
